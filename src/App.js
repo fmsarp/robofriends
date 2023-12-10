@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import CardList from "./CardList";
+import { robots } from "./robots";
+import SearchBox from "./SearchBox";
+import { useState } from "react";
 
-function App() {
+export default function App() {
+  const [state] = useState({
+    robots: robots,
+    searchfield: "",
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="tc">
+      <h1>RoboFriends</h1>
+      <SearchBox />
+      <CardList robots={state.robots} />
     </div>
   );
 }
-
-export default App;
