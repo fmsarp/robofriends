@@ -70,4 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-The project is built as part of a ZeroToMastery web developer course using React. In this exercise, the outcome a search bo that communicated with robot contact cards and update the UI accordingly. 
+The project is built as part of a ZeroToMastery web developer course using React. In this exercise, the outcome a search bo that communicated with robot contact cards and update the UI accordingly.
+
+Initial commit was done when I got stuck at trying to figure out how to use "useState". The course exercise i am following along with is a little old and React has had many updates since then. 
