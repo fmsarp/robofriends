@@ -23,7 +23,7 @@ export default function App() {
       }
     };
     fetchData();
-  }, [state]);
+  }, []);
 
   const onSearchChange = (searchTerm) => {
     setState({ ...state, searchfield: searchTerm });
